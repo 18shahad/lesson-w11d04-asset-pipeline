@@ -44,7 +44,7 @@ It’s important to organize your assets in a way that is understandable to you,
 ### Installation
 
 #### Step 1
-We need to include a couple gems in order to get started. In our `Gemfile` let's include:
+We need to include a couple of gems in order to get started. In our `Gemfile` let's include:
 
 ```ruby
 # Use Bootstrap4
