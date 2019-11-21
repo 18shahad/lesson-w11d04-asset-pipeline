@@ -29,6 +29,9 @@
     - Some of the best things about being a web developer right now is being able to use handy new next-gen higher-level languages. No longer do we have to survive by actually writing out every. single. HTML tag by hand. No longer do we have to write out lines and lines of code and make sure you get every bracket, comma, and semi-colon right. 
     - Now we have meta-languages like Coffeescript, Sass, ERB, HAML, and the list goes on! At this stage, our Rails Coffeescript and Sass files get converted – precompiled – to vanilla Javascript and CSS.
 
+## Manifest Files
+Rails needs to know which files to include in that giant blob, so it uses so-called “manifest” files to determine this. Your javascript manifest file will be in `app/assets/javascripts/application.js` It looks commented out, but the lines starting with //= tell Rails which files to go find and include. (P.S.The comments in the file are pretty useful). The `require_tree` helper method just grabs everything in the current directory.
+
 ## Sass and Coffeescript
 I’ve mentioned Sass and Coffeescript a bit in the above sections, but I haven’t yet gone into what they are.
 
