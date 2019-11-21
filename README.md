@@ -29,13 +29,12 @@
     - Some of the best things about being a web developer right now is being able to use handy new next-gen higher-level languages. No longer do we have to survive by actually writing out every. single. HTML tag by hand. No longer do we have to write out lines and lines of code and make sure you get every bracket, comma, and semi-colon right. 
     - Now we have meta-languages like Coffeescript, Sass, ERB, HAML, and the list goes on! At this stage, our Rails Coffeescript and Sass files get converted – precompiled – to vanilla Javascript and CSS.
 
-## Sass and Coffescript
+## Sass and Coffeescript
 I’ve mentioned Sass and Coffeescript a bit in the above sections, but I haven’t yet gone into what they are.
 
-### Sass and Coffeescript
 Sass and Coffeescript are languages that use preprocessors to transform their syntax into CSS and Javascript, respectively. They are included by default with Rails, and are probably the most popular to use.
 
-### SCSS (Sassy CSS)
+## SCSS (Sassy CSS)
 SCSS resembles standard CSS code closely. In fact, you can actually change the extension of a CSS file to `scss` and run it through a preprocessor and it will compile just fine. One big difference is, although you can write the same CSS code you are used to, you can also nest your rules.
 
 so in css the following code is:
